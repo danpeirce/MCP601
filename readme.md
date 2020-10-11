@@ -13,3 +13,8 @@ This project started as an exploration of using 3D parts broaght together from d
 2020-10-10  03:24 PM    <DIR>          MCP601
 2020-10-10  03:30 PM    <DIR>          NopSCADlib
 ~~~~
+
+
+Image created by OpenSCAD
+
+![](images/mcp601-breadboard.png)
