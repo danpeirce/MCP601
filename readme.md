@@ -1,6 +1,8 @@
 # MCP601 on Breadboard
 
-This project started as an exploration of using 3D parts broaght together from different sources. 
+  * {just exploring what can be done at this point} *
+
+This project started as an exploration of using 3D parts brought together from different sources. 
 
 * A solderless breadboard derived from this project 
    Customizable Parametric OpenSCAD Breadboard [https://www.thingiverse.com/thing:3057115](https://www.thingiverse.com/thing:3057115)
