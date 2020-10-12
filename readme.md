@@ -1,6 +1,6 @@
 # MCP601 on Breadboard
 
-  * {just exploring what can be done at this point} *
+  *{just exploring what can be done at this point}*
 
 This project started as an exploration of using 3D parts brought together from different sources. 
 
