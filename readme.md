@@ -19,4 +19,6 @@ This project started as an exploration of using 3D parts brought together from d
 
 Image created by OpenSCAD
 
+![](images/mcp601-breadboard2.png)
+
 ![](images/mcp601-breadboard.png)
