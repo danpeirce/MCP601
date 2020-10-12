@@ -1,16 +1,9 @@
 # C315C104M5U5TA7301  0.1 µF capacitor
 # fits in     cube([3.81, 2.54, 3.14 + 1.52])
-import sys
-from math import cos, radians, sin
-
-from euclid3 import Point3
 
 from solid import *
-from solid.utils import extrude_along_path
 
-
-
-if __name__ == '__main__':
+def cap100nf():
     SEGMENTS = 50
     inch = 25.4
     rad = 0.51/2
@@ -29,8 +22,12 @@ if __name__ == '__main__':
     a5 = hull()(a3,c4)
     c1 = translate([lead_offset1, boxy/2, 0])(cylinder(r1=rad, r2=lead_offset1, h=boxz_2, segments = 50))
     c2 = translate([lead_offset1+0.1*inch, boxy/2, 0])(cylinder(r1=rad, r2=lead_offset1, h=boxz_2, segments = 50))
-    a1 = a4+a5+c1+c2
+    a1 = translate([0.5*inch,0.43*inch,9])(rotate([0,0,90]) (a4+a5+c1+c2))
+    return a1
 
+
+if __name__ == '__main__':
+    a1 = cap100nf()
     file_out = scad_render_to_file(a1, "cap0_1.scad", include_orig_code=True)
 
 	
