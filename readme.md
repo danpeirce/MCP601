@@ -22,6 +22,8 @@ A clone of the NopSCADlib repository needs to reside in the same folder as a clo
 
 Image created by OpenSCAD
 
+[link to youtube video for more angles](https://youtu.be/9dhd64a-zAU)
+
 ![](images/mcp601-breadboard2.png)
 
 ![](images/mcp601-breadboard.png)
